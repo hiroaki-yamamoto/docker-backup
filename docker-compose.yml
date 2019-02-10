@@ -8,5 +8,5 @@ services:
     ports:
       - "2255:22"
     volumes:
-      # - /Volumes/Backup:/mnt/backup
+      - /Volumes/Backup:/mnt/backup
       - .ssh/authorized_keys:/root/.ssh/authorized_keys
